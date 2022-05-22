@@ -2,7 +2,7 @@
 
 namespace Domain
 {
-    public class User
+    public class User : Entity
     {
         public Guid Id { get; set; }
         public string Username { get; set; }
