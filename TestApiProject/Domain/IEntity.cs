@@ -11,8 +11,11 @@ namespace Domain
         Guid Id { get; set; }
 
     }
+
     internal interface IEntity<T>
     {
         int Id { get; set; }
     }
+
+    
 }
