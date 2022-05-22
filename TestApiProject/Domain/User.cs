@@ -1,8 +1,9 @@
 ﻿using Abp.Domain.Entities;
+using Domain;
 
 namespace Domain
 {
-    public class User : Entity
+    public class User : IEntity
     {
         public Guid Id { get; set; }
         public string Username { get; set; }

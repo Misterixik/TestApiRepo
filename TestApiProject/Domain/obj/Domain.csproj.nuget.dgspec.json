@@ -43,6 +43,10 @@
             "Abp": {
               "target": "Package",
               "version": "[7.2.1, )"
+            },
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
             }
           },
           "imports": [
